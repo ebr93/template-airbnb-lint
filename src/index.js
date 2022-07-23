@@ -1,16 +1,16 @@
 import _ from 'lodash';
-import './styles/style.css'
+import './styles/style.css';
 
 function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-  
-    return element;
+  const element = document.createElement('div');
+
+  // Lodash, now imported by this script
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.classList.add('hello');
+
+  return element;
 }
-  
+
 document.body.appendChild(component());
 
-console.log("1 2 3")
+console.log('1 2 3');
